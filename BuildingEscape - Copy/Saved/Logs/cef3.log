@@ -1,0 +1,3 @@
+[0630/132427:WARNING:raw_channel_win.cc(532)] WriteFile: The pipe is being closed. (0xE8)
+[0630/132427:WARNING:channel.cc(359)] RawChannel write error
+[0630/140316:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
