@@ -98,13 +98,14 @@ void EmptyLinkFunctionForGeneratedCode1BuildingEscape() {}
 				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Grabber.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Grabber.h"));
+				MetaData->SetValue(OuterClass, TEXT("ToolTip"), TEXT("#include \"PhysicsEngine/PhysicsHandleComponent.h\""));
 #endif
 			}
 		}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGrabber, 1771832566);
+	IMPLEMENT_CLASS(UGrabber, 3144236850);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UGrabber(Z_Construct_UClass_UGrabber, &UGrabber::StaticClass, TEXT("/Script/BuildingEscape"), TEXT("UGrabber"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGrabber);
 	void UOpenDoor::StaticRegisterNativesUOpenDoor()
@@ -204,7 +205,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/BuildingEscape")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x1A049885;
+			Guid.A = 0xEFA33774;
 			Guid.B = 0x743C66FE;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
